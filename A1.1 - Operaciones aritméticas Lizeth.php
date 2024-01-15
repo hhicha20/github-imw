@@ -70,9 +70,12 @@ while (true){
             break;
         }    
         case 4:{    
+
             echo "Al que madruga dios le ayuda :)";
+            
             exit(0);
         }  
     }
 }
+
 ?>
