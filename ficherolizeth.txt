@@ -1,0 +1,10 @@
+ 3)
+            sudo fdisk -l
+            echo "Selecciona una partición tipo /dev/sdx" 
+            read dispositivos
+             if  [ "$dispositivos" ] 
+             then
+             	badblocks -nsv $dispositivos
+             else
+             echo "El dispositivo no es correcto" 
+	      fi 
