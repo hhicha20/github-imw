@@ -70,9 +70,10 @@ while (true){
             break;
         }    
         case 4:{    
-            echo "Gracias por utilizar esta calculadora. Adiós :)";
+            echo "bobo en que lo leea :)";
             exit(0);
         }  
     }
 }
+
 ?>
